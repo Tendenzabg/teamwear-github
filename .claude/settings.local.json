@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && head -20 {}')",
+      "Bash(shopify theme push:*)",
+      "Bash(osascript -e 'tell application \"\"Terminal\"\" to do script \"\"shopify theme push\"\"' -e 'tell application \"\"Terminal\"\" to activate')",
+      "Bash(osascript:*)",
+      "Bash(shopify theme dev:*)"
+    ]
+  }
+}
